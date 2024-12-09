@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LILA WEB</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Hai, tolong isi ya</h1>
+    <form action="/submit" method="POST">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+        <br><br>
+    
+        <label for="prodi">Prodi:</label>
+        <input type="text" id="prodi" name="prodi" required>
+        <br><br>
+
+        <label for="angkatan">Angkatan:</label>
+        <input type="number" id="angkatan" name="angkatan" required>
+        <br><br>
+    
+        <button type="submit">Kirim</button>
+    </form>    
+</body>
+</html>
